@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "turgues-ragret_jd397"
+name = "turgues-reward_model_overfit_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列RAG 检索工程师·奖励模型的过拟合的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://turgues.github.io"
-Repository = "https://github.com/turgues/ragret_jd397"
-Issues = "https://github.com/turgues/ragret_jd397/issues"
+Repository = "https://github.com/turgues/reward_model_overfit_timeline_score"
+Issues = "https://github.com/turgues/reward_model_overfit_timeline_score/issues"
 
 [project.scripts]
-ragret_jd397 = "ragret_jd397:main"
+reward_model_overfit_timeline_score = "reward_model_overfit_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["ragret_jd397"]
+py-modules = ["reward_model_overfit_timeline_score"]
